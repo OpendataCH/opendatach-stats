@@ -1,10 +1,8 @@
 [![goodtables.io](https://goodtables.io/badge/github/loleg/opendatach-stats.svg)](https://goodtables.io/github/loleg/opendatach-stats)
 
-Statistics about the [Opendata.ch association](https://opendata.ch), compiled into a [Data Package](https://frictionlessdata.io/data-packages/) format. The data collected here was initially prepared by the [Opendata.ch/2019](https://opendata.ch/2019) unconference organisers.
+[<img alt="DataHub" src="https://datahub.io/static/img/logo-cube.png" width="70">](https://datahub.io/loleg/opendatach19/v/1)
 
-[Explore on ![DataHub](https://datahub.io/static/img/logo-cube.png)](https://datahub.io/loleg/opendatach19/v/1)
-
-The image below is excerpted from the [analysis of community needs](https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoCwqVV9EBhHMcmmCI5FxIELLTT5IdEVrKIMImWmfcq4iE1xOW-_90Rs-dt3JCkb-1DxjNJRCjy40/pubhtml?gid=218970622&single=true) (Google Sheets).
+Statistics about the [Opendata.ch association](https://opendata.ch), compiled into a [Data Package](https://frictionlessdata.io/data-packages/) format. The data collected here was initially prepared by the [Opendata.ch/2019](https://opendata.ch/2019) unconference organisers. Explore this Data Package [at DataHub](https://datahub.io/loleg/opendatach19/v/1). The image below is excerpted from the analysis of community needs ([Google Sheets](https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vTtoCwqVV9EBhHMcmmCI5FxIELLTT5IdEVrKIMImWmfcq4iE1xOW-_90Rs-dt3JCkb-1DxjNJRCjy40/pubhtml#)).
 
 ![](https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vTtoCwqVV9EBhHMcmmCI5FxIELLTT5IdEVrKIMImWmfcq4iE1xOW-_90Rs-dt3JCkb-1DxjNJRCjy40/pubchart?oid=394312313&format=image)
 
