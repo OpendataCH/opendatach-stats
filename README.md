@@ -2,8 +2,7 @@
 
 Statistics about the [Opendata.ch association](https://opendata.ch), compiled into a [Data Package](https://frictionlessdata.io/data-packages/) format. The data collected here was initially prepared by the [Opendata.ch/2019](https://opendata.ch/2019) unconference organisers.
 
-![]()
-[Explore on DataHub.io](https://datahub.io/loleg/opendatach19/v/1)
+[Explore on ![DataHub](https://datahub.io/static/img/logo-cube.png)](https://datahub.io/loleg/opendatach19/v/1)
 
 The image below is excerpted from the [analysis of community needs](https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoCwqVV9EBhHMcmmCI5FxIELLTT5IdEVrKIMImWmfcq4iE1xOW-_90Rs-dt3JCkb-1DxjNJRCjy40/pubhtml?gid=218970622&single=true) (Google Sheets).
 
