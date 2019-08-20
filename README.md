@@ -1,3 +1,5 @@
+[![goodtables.io](https://goodtables.io/badge/github/loleg/opendatach-stats.svg)](https://goodtables.io/github/loleg/opendatach-stats)
+
 Statistics about the [Opendata.ch association](https://opendata.ch), compiled into a [Data Package](https://frictionlessdata.io/data-packages/) format. The data collected here was initially prepared by the [Opendata.ch/2019](https://opendata.ch/2019) unconference organisers.
 
 ![]()
