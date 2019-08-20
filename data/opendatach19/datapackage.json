@@ -1,0 +1,231 @@
+{
+  "bytes": 21255,
+  "count_of_rows": 164,
+  "hash": "f326e2f65def7aef02132ae8fcbc8f99",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Oleg Lavrovsky",
+      "web": "https://datalets.ch/"
+    }
+  ],
+  "name": "opendatach19",
+  "profile": "data-package",
+  "resources": [
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "name": "feedback",
+      "path": "feedback.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "ID",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Interesse_1",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Interesse_2",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Interesse_3",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Interesse_4",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Erfahrung_1",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Erfahrung_2",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Erfahrung_3",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Erfahrung_4",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Erfahrung_5",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Erfahrung_6",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Erfahrung_7",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefallen_1",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefallen_2",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefallen_3",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefallen_4",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefallen_5",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefallen_6",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefallen_7",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefehlt_1",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefehlt_2",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefehlt_3",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefehlt_1_kategorisiert",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefehlt_2_kategorisiert",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Gefehlt_3_kategorisiert",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "name": "analysis",
+      "path": "analysis.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Alle \"Bedürfnisse\"",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Anzahl Auflistung (Zahl)",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Handlungsfelder",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Datenthemata",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "Opendata.ch/2019 Forum",
+  "views": [
+    {
+      "name": "Groups",
+      "resources": [
+        "analysis"
+      ],
+      "spec": {
+        "group": "Alle Bedürfnisse",
+        "series": [
+          "Anzahl Auflistung (Zahl)"
+        ],
+        "type": "bar"
+      },
+      "specType": "simple",
+      "title": "Topic counts"
+    }
+  ]
+}
