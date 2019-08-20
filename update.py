@@ -7,11 +7,16 @@ od19_feedback = '587615265'
 od19_analysis = '218970622'
 
 def not_empty_groupcol(rows):
+    deduplicate = []
     for row in rows:
-        if 'Alle "Bedürfnisse"' not in row or \
-           (row['Alle "Bedürfnisse"'].strip() and \
-            row['Anzahl Auflistung (Zahl)'] is not None):
+        if 'Alle "Bedürfnisse"' not in row:
             yield row
+        elif row['Alle "Bedürfnisse"'].strip() and \
+             row['Anzahl Auflistung (Zahl)'] is not None:
+                v = row['Alle "Bedürfnisse"'].strip()
+                if not v in deduplicate:
+                    deduplicate.append(v)
+                    yield row
 
 def conference_csv():
     flow = Flow(
